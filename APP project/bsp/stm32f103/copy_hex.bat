@@ -1,0 +1,1 @@
+copy /B /Y .\build\rtthread-stm32.hex .\LowCost_Radar.hex

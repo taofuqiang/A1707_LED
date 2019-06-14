@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="components\net\lwip_1.4.1\api\api_lib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\api_msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\app_board.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\application.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\arith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\asn1_dec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\asn1_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\autoip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTClient-C\src\baiduyun.iot_auth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\bmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\completion.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\cpuusage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\ctype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\dataqueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\app\debug_protocol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\def.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\device.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\dhcp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\dns.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_18b20.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_board.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_breathe_led.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_com_uart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_encrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_ext_sram.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_f1_eth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_InRTC.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_MixRTC.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_simu_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_switch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\drv_watchdog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\eprt_server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\netif\etharp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\netif\ethernetif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_compiler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_heap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_node.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_ops.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_parser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_token.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_var.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\finsh_vm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\ftp_vfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\ftpd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\app\g4_protocol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\iap_if.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\icmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv6\icmp6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\igmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\inet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv6\inet6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\inet_chksum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\ip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv6\ip6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv6\ip6_addr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\ip_addr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\ipv4\ip_frag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kservice.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\newlib\libc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\math.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\armlibc\mem_std.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memheap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\memp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mempool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\mib2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\mib_structs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\module.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTConnectClient.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTConnectServer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTDeserializePublish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTFormat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTPacket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTSerializePublish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTSubscribeClient.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTSubscribeServer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTUnsubscribeClient.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\mqtt\src\MQTTPacket\src\MQTTUnsubscribeServer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\dep\msg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\msg_in.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\msg_led.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\snmp\msg_out.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\msh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\msh_cmd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\dep\net.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\App\net_monitor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\netbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\netdb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\netif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\netifapi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\app\netio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\param.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\pbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\pipe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\portal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\protocol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\app\protocol_anylise_frame.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\dep\ptp_timer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\ptpd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\qsort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\rand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\raw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\ringbuffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scheduler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\serial.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\dep\servo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\shell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\netif\slipif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\sockets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\startup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\stdlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\stm32f10x_it.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\armlibc\stubs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\swo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\finsh\symbol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\sys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\arch\sys_arch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\ptpd\src\dep\sys_time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\newlib\syscalls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\tcp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\tcp_in.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\tcp_out.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\api\tcpip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\startup\telnet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\libc\minilibc\time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\timers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\net\lwip_1.4.1\core\udp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\drivers\usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_bit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_buf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_calc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_conversion.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp\stm32f107\common_lib\usdl_tools.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="components\drivers\src\workqueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\api_msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\app_board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\arch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\autoip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\bit_band_macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\arch\cc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\common_lib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\dep\constants_dep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\dep\constants_dep_mcu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\datatypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\dep\datatypes_dep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\app\debug_protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\dhcp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\newlib\sys\dirent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\dns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_18b20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_breathe_led.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_com_uart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_encrypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_ext_sram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_f1_eth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_InRTC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_MixRTC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_simu_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_switch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\drv_watchdog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\eprt_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\netif\etharp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\netif\ethernetif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\newlib\sys\fcntl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_ops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_var.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\finsh_vm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\ftp_vfs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\ftpd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\app\g4_protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\iap_if.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv6\lwip\icmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\icmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\igmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\inet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv6\lwip\inet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\inet_chksum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\input_id.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv6\lwip\ip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\ip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\ip_addr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv6\lwip\ip_addr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\ipv4\lwip\ip_frag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\newlib\libc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\lwipopts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\mem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\memp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\memp_std.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\module.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTConnect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTPacket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTPublish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTSubscribe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\MQTTUnsubscribe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\msg_led.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\msh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\netbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\posix\netdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\netdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\netif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\netifapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\opt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\startup\param.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\pbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\arch\perf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\netif\ppp_oe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\app\protocol_anylise_frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\ptpd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\ptpd\src\dep\ptpd_dep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\public_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\raw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\rtconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtdebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\drivers\include\rtdevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rthw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtservice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtthread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\serial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\finsh\shell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\sio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\netif\slipif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\snmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\snmp_asn1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\snmp_msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\snmp_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\posix\sys\socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\sockets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\mqtt\src\MQTTPacket\src\StackTrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\sys\stat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\newlib\sys\statfs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\stddef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\stdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\stdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\stm32f10x_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\stm32f10x_it.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\arch\sys_arch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\tcp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\tcp_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\tcpip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\sys\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\timers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\libc\minilibc\sys\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="components\net\lwip_1.4.1\include\lwip\udp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\drivers\usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_bit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_buf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_calc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_conversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_mem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp\stm32f107\common_lib\usdl_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bsp\stm32f107\Hex\rtthread.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bsp\stm32f107\Libraries\CMSIS\CMSIS debug support.htm" />
+    <None Include="bsp\stm32f107\Libraries\CMSIS\CMSIS_changes.htm" />
+    <None Include="bsp\stm32f107\Libraries\CMSIS\Documentation\CMSIS_Core.htm" />
+    <None Include="bsp\stm32f107\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\Release_Notes.html" />
+    <None Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\Release_Notes.html" />
+    <None Include="bsp\stm32f107\Libraries\CMSIS\CM3\DeviceSupport\ST\Release_Notes_for_STM32F10x_CMSIS.html" />
+    <None Include="bsp\stm32f107\Libraries\STM32F10x_StdPeriph_Driver\Release_Notes_for_STM32F10x_StdPeriph_Driver.html" />
+    <None Include="bsp\stm32f107\build\rtthread-stm32.htm" />
+  </ItemGroup>
+</Project>
